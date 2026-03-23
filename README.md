@@ -2,8 +2,6 @@
 
 ### Building products for leaders who need real insights.
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=MadhavSomanath&label=Profile views&color=0e75b6&style=flat" alt="MadhavSomanath" /> </p>
-
 - 🔭 I'm currently working on **Mindux, a consultancy for new age space engineering**
 
 - 🌱 I'm currently learning **Guardrails & Monitoring for LLM evaluations**
