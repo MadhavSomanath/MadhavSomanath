@@ -4,11 +4,11 @@
 
 - 🔭 I'm currently working on **Mindux, a consultancy for new age space engineering**
 
-- 🌱 I'm currently learning **Guardrails & Monitoring for LLM evaluations**
+- 🌱 I'm currently learning **guardrails & monitoring for LLM evaluations**
 
-- 🤝 I'm looking for help with **Learn advanced system design, and cybersecurity**
+- 🤝 I'm looking for help with **learning advanced system design, and cybersecurity**
 
-- 💬 Ask me about **Careers, obscure animal facts and F1!**
+- 💬 Ask me about **careers, obscure animal facts and F1!**
 
 - 📫 How to reach me **contact.madhavsomanath@gmail.com**
 
