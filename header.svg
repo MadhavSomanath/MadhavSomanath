@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Madhav Somanath. Building products for leaders who need real insights.">
+  <style>
+    .bg { fill: #FAF8F5; }
+    .grid { stroke: #E8E3DC; }
+    .name { fill: #141414; font: 600 76px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -2.5px; }
+    .tag { fill: #5C5852; font: 400 26px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .meta { fill: #8A847B; font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; }
+    .accent { fill: #FF5A1F; }
+    .orbit { stroke: #141414; fill: none; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0D1117; }
+      .grid { stroke: #1C222B; }
+      .name { fill: #F0F3F6; }
+      .tag { fill: #9DA7B3; }
+      .meta { fill: #6E7681; }
+      .orbit { stroke: #F0F3F6; }
+    }
+  </style>
+  <rect class="bg" width="1200" height="320" rx="20"/>
+  <g class="grid" stroke-width="1">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M880 0V320M960 0V320M1040 0V320M1120 0V320"/>
+  </g>
+  <!-- orbit mark: a nod to the space-engineering work -->
+  <g transform="translate(1000 160)">
+    <ellipse class="orbit" rx="110" ry="42" stroke-width="1.5" transform="rotate(-22)" opacity=".55"/>
+    <ellipse class="orbit" rx="70" ry="70" stroke-width="1.5" opacity=".25"/>
+    <circle class="accent" r="16"/>
+    <circle class="accent" cx="96" cy="-40" r="6"/>
+  </g>
+  <text class="meta" x="64" y="88">BENGALURU · PRODUCT · AI · DESIGN</text>
+  <text class="name" x="60" y="182">Madhav Somanath</text>
+  <text class="tag" x="64" y="232">Building products for leaders who need real insights.</text>
+  <rect class="accent" x="64" y="262" width="48" height="4" rx="2"/>
+</svg>
