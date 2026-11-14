@@ -1,34 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Madhav Somanath. Building products for leaders who need real insights.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Madhav Somanath. Product manager who builds. AI features that ship and hold up.">
   <style>
-    .bg { fill: #FAF8F5; }
-    .grid { stroke: #E8E3DC; }
-    .name { fill: #141414; font: 600 76px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -2.5px; }
-    .tag { fill: #5C5852; font: 400 26px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .meta { fill: #8A847B; font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; }
-    .accent { fill: #FF5A1F; }
-    .orbit { stroke: #141414; fill: none; }
-    @media (prefers-color-scheme: dark) {
-      .bg { fill: #0D1117; }
-      .grid { stroke: #1C222B; }
-      .name { fill: #F0F3F6; }
-      .tag { fill: #9DA7B3; }
-      .meta { fill: #6E7681; }
-      .orbit { stroke: #F0F3F6; }
-    }
+    .st { fill: #E6EDF3; animation: tw 4s ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity: .15 } 50% { opacity: .9 } }
+    @keyframes up { from { opacity: 0; transform: translateY(18px) } to { opacity: 1; transform: none } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .st { opacity: .5 } }
+    .meta { fill: #FF5A1F; font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 4px; }
+    .name { fill: #F0F3F6; font: 700 80px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -3px; }
+    .tag { fill: #F0F3F6; font: 500 30px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -.5px; }
+    .sub { fill: #8B949E; font: 400 24px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .a1, .a2, .a3, .a4 { opacity: 0; animation: up .9s cubic-bezier(.2,.7,.2,1) forwards; }
+    .a1 { animation-delay: .1s } .a2 { animation-delay: .35s } .a3 { animation-delay: .6s } .a4 { animation-delay: .85s }
+    .pulse { animation: pu 4s ease-in-out infinite; transform-origin: 940px 190px; }
+    @keyframes pu { 0%,100% { transform: scale(1); opacity: .8 } 50% { transform: scale(1.25); opacity: 1 } }
+    @media (prefers-reduced-motion: reduce) { .a1,.a2,.a3,.a4 { opacity: 1 } }
   </style>
-  <rect class="bg" width="1200" height="320" rx="20"/>
-  <g class="grid" stroke-width="1">
-    <path d="M0 80H1200M0 160H1200M0 240H1200M880 0V320M960 0V320M1040 0V320M1120 0V320"/>
+  <defs>
+    <radialGradient id="sky" cx="78%" cy="45%" r="85%">
+      <stop offset="0" stop-color="#1A1F3A"/><stop offset=".55" stop-color="#0B0F1E"/><stop offset="1" stop-color="#05070D"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="35%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#FFB08A"/><stop offset=".5" stop-color="#FF5A1F"/><stop offset="1" stop-color="#B8350C"/>
+    </radialGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#FF5A1F" stop-opacity=".45"/><stop offset="1" stop-color="#FF5A1F" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="380" rx="24" fill="url(#sky)"/>
+  <g>
+    <circle class="st" cx="389" cy="57" r="0.6" style="animation-duration:2.8s;animation-delay:-2.7s"/>
+    <circle class="st" cx="439" cy="22" r="1.6" style="animation-duration:3.3s;animation-delay:-0.4s"/>
+    <circle class="st" cx="502" cy="91" r="1.6" style="animation-duration:4.0s;animation-delay:-4.1s"/>
+    <circle class="st" cx="149" cy="85" r="1.6" style="animation-duration:5.8s;animation-delay:-2.9s"/>
+    <circle class="st" cx="476" cy="371" r="0.6" style="animation-duration:4.4s;animation-delay:-0.7s"/>
+    <circle class="st" cx="503" cy="205" r="1.6" style="animation-duration:3.6s;animation-delay:-4.1s"/>
+    <circle class="st" cx="217" cy="221" r="0.8" style="animation-duration:3.8s;animation-delay:-2.7s"/>
+    <circle class="st" cx="75" cy="23" r="0.8" style="animation-duration:4.2s;animation-delay:-2.7s"/>
+    <circle class="st" cx="933" cy="177" r="1.2" style="animation-duration:3.8s;animation-delay:-1.2s"/>
+    <circle class="st" cx="216" cy="296" r="0.6" style="animation-duration:4.5s;animation-delay:-2.6s"/>
+    <circle class="st" cx="1050" cy="277" r="1" style="animation-duration:4.6s;animation-delay:-0.4s"/>
+    <circle class="st" cx="614" cy="63" r="1" style="animation-duration:3.0s;animation-delay:-2.4s"/>
+    <circle class="st" cx="47" cy="254" r="1.6" style="animation-duration:4.5s;animation-delay:-4.4s"/>
+    <circle class="st" cx="376" cy="264" r="1.6" style="animation-duration:4.2s;animation-delay:-4.0s"/>
+    <circle class="st" cx="83" cy="36" r="1" style="animation-duration:4.2s;animation-delay:-3.3s"/>
+    <circle class="st" cx="73" cy="267" r="1.6" style="animation-duration:6.0s;animation-delay:-4.1s"/>
+    <circle class="st" cx="342" cy="147" r="1" style="animation-duration:2.6s;animation-delay:-2.3s"/>
+    <circle class="st" cx="202" cy="44" r="0.6" style="animation-duration:3.3s;animation-delay:-1.4s"/>
+    <circle class="st" cx="886" cy="151" r="1.2" style="animation-duration:2.8s;animation-delay:-2.2s"/>
+    <circle class="st" cx="659" cy="336" r="1.2" style="animation-duration:5.5s;animation-delay:-1.4s"/>
+    <circle class="st" cx="498" cy="136" r="1.2" style="animation-duration:5.9s;animation-delay:-0.8s"/>
+    <circle class="st" cx="211" cy="88" r="0.8" style="animation-duration:2.5s;animation-delay:-4.2s"/>
+    <circle class="st" cx="219" cy="107" r="0.8" style="animation-duration:4.0s;animation-delay:-1.8s"/>
+    <circle class="st" cx="680" cy="362" r="1.6" style="animation-duration:5.8s;animation-delay:-3.3s"/>
+    <circle class="st" cx="888" cy="174" r="1.6" style="animation-duration:3.9s;animation-delay:-2.0s"/>
+    <circle class="st" cx="124" cy="241" r="0.6" style="animation-duration:3.2s;animation-delay:-4.9s"/>
+    <circle class="st" cx="529" cy="42" r="1.6" style="animation-duration:2.7s;animation-delay:-0.0s"/>
+    <circle class="st" cx="182" cy="39" r="1" style="animation-duration:4.6s;animation-delay:-0.4s"/>
+    <circle class="st" cx="250" cy="143" r="1" style="animation-duration:5.8s;animation-delay:-3.0s"/>
+    <circle class="st" cx="569" cy="44" r="1.2" style="animation-duration:6.0s;animation-delay:-2.3s"/>
+    <circle class="st" cx="581" cy="33" r="0.6" style="animation-duration:5.1s;animation-delay:-3.7s"/>
+    <circle class="st" cx="574" cy="263" r="1.6" style="animation-duration:2.6s;animation-delay:-4.8s"/>
+    <circle class="st" cx="634" cy="56" r="1.6" style="animation-duration:5.7s;animation-delay:-3.8s"/>
+    <circle class="st" cx="358" cy="244" r="0.6" style="animation-duration:4.9s;animation-delay:-1.3s"/>
+    <circle class="st" cx="440" cy="63" r="0.8" style="animation-duration:4.4s;animation-delay:-3.9s"/>
+    <circle class="st" cx="396" cy="85" r="0.8" style="animation-duration:5.3s;animation-delay:-4.1s"/>
+    <circle class="st" cx="888" cy="86" r="1.6" style="animation-duration:4.2s;animation-delay:-3.7s"/>
+    <circle class="st" cx="1188" cy="300" r="1.2" style="animation-duration:3.4s;animation-delay:-3.5s"/>
+    <circle class="st" cx="1148" cy="170" r="1" style="animation-duration:5.8s;animation-delay:-1.8s"/>
+    <circle class="st" cx="265" cy="86" r="0.8" style="animation-duration:3.7s;animation-delay:-2.4s"/>
+    <circle class="st" cx="1182" cy="232" r="0.6" style="animation-duration:4.2s;animation-delay:-3.3s"/>
+    <circle class="st" cx="960" cy="32" r="0.6" style="animation-duration:5.7s;animation-delay:-3.9s"/>
+    <circle class="st" cx="900" cy="182" r="0.8" style="animation-duration:4.0s;animation-delay:-3.2s"/>
+    <circle class="st" cx="104" cy="360" r="1.2" style="animation-duration:4.1s;animation-delay:-3.7s"/>
+    <circle class="st" cx="102" cy="60" r="0.8" style="animation-duration:2.6s;animation-delay:-3.0s"/>
+    <circle class="st" cx="558" cy="249" r="1.6" style="animation-duration:5.4s;animation-delay:-4.9s"/>
+    <circle class="st" cx="789" cy="133" r="1.6" style="animation-duration:4.4s;animation-delay:-0.1s"/>
+    <circle class="st" cx="959" cy="276" r="0.6" style="animation-duration:4.3s;animation-delay:-4.7s"/>
+    <circle class="st" cx="521" cy="331" r="0.8" style="animation-duration:2.6s;animation-delay:-1.1s"/>
+    <circle class="st" cx="601" cy="290" r="1" style="animation-duration:3.4s;animation-delay:-2.1s"/>
+    <circle class="st" cx="157" cy="346" r="1" style="animation-duration:5.6s;animation-delay:-3.3s"/>
+    <circle class="st" cx="978" cy="196" r="1.6" style="animation-duration:3.0s;animation-delay:-0.8s"/>
+    <circle class="st" cx="613" cy="332" r="0.8" style="animation-duration:4.6s;animation-delay:-3.9s"/>
+    <circle class="st" cx="180" cy="54" r="1.6" style="animation-duration:5.0s;animation-delay:-2.8s"/>
+    <circle class="st" cx="391" cy="197" r="1.6" style="animation-duration:4.2s;animation-delay:-3.9s"/>
+    <circle class="st" cx="1060" cy="22" r="0.8" style="animation-duration:3.5s;animation-delay:-3.9s"/>
+    <circle class="st" cx="609" cy="213" r="0.6" style="animation-duration:4.1s;animation-delay:-3.1s"/>
+    <circle class="st" cx="607" cy="195" r="1" style="animation-duration:4.1s;animation-delay:-2.7s"/>
+    <circle class="st" cx="574" cy="358" r="1.6" style="animation-duration:5.6s;animation-delay:-4.7s"/>
+    <circle class="st" cx="312" cy="213" r="0.8" style="animation-duration:5.4s;animation-delay:-0.7s"/>
+    <circle class="st" cx="146" cy="168" r="0.6" style="animation-duration:4.8s;animation-delay:-2.1s"/>
+    <circle class="st" cx="255" cy="115" r="0.6" style="animation-duration:5.6s;animation-delay:-0.8s"/>
+    <circle class="st" cx="859" cy="251" r="0.8" style="animation-duration:3.4s;animation-delay:-0.7s"/>
+    <circle class="st" cx="561" cy="284" r="0.6" style="animation-duration:3.9s;animation-delay:-2.4s"/>
+    <circle class="st" cx="1188" cy="316" r="0.8" style="animation-duration:5.0s;animation-delay:-5.0s"/>
+    <circle class="st" cx="485" cy="160" r="1" style="animation-duration:3.6s;animation-delay:-3.6s"/>
+    <circle class="st" cx="23" cy="211" r="1.2" style="animation-duration:5.0s;animation-delay:-1.9s"/>
+    <circle class="st" cx="621" cy="112" r="0.6" style="animation-duration:2.9s;animation-delay:-4.6s"/>
+    <circle class="st" cx="274" cy="333" r="0.6" style="animation-duration:3.4s;animation-delay:-0.2s"/>
+    <circle class="st" cx="935" cy="103" r="0.8" style="animation-duration:5.4s;animation-delay:-4.2s"/>
   </g>
-  <!-- orbit mark: a nod to the space-engineering work -->
-  <g transform="translate(1000 160)">
-    <ellipse class="orbit" rx="110" ry="42" stroke-width="1.5" transform="rotate(-22)" opacity=".55"/>
-    <ellipse class="orbit" rx="70" ry="70" stroke-width="1.5" opacity=".25"/>
-    <circle class="accent" r="16"/>
-    <circle class="accent" cx="96" cy="-40" r="6"/>
+  <g transform="translate(940 190)">
+    <circle class="pulse" r="120" fill="url(#glow)" style="transform-origin:0 0"/>
+    <g transform="rotate(-18)">
+      <path d="M-230 0a230 70 0 1 0 460 0a230 70 0 1 0 -460 0" fill="none" stroke="#C9D1D9" stroke-opacity="0.28" stroke-width="1.2" stroke-dasharray="2 6"/>
+      <circle r="6" fill="#E6EDF3"><animateMotion dur="26s" begin="-4s" repeatCount="indefinite" path="M-230 0a230 70 0 1 0 460 0a230 70 0 1 0 -460 0"/></circle>
+    </g>
+    <g transform="rotate(-18)">
+      <path d="M-160 0a160 52 0 1 0 320 0a160 52 0 1 0 -320 0" fill="none" stroke="#C9D1D9" stroke-opacity="0.35" stroke-width="1.2" stroke-dasharray="2 6"/>
+      <circle r="5" fill="#79C0FF"><animateMotion dur="17s" begin="-9s" repeatCount="indefinite" path="M-160 0a160 52 0 1 0 320 0a160 52 0 1 0 -320 0"/></circle>
+    </g>
+    <g transform="rotate(-18)">
+      <path d="M-95 0a95 34 0 1 0 190 0a95 34 0 1 0 -190 0" fill="none" stroke="#C9D1D9" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="2 6"/>
+      <circle r="4" fill="#FFB08A"><animateMotion dur="10s" begin="-2s" repeatCount="indefinite" path="M-95 0a95 34 0 1 0 190 0a95 34 0 1 0 -190 0"/></circle>
+    </g>
+    <circle r="30" fill="url(#sun)"/>
   </g>
-  <text class="meta" x="64" y="88">BENGALURU · PRODUCT · AI · DESIGN</text>
-  <text class="name" x="60" y="182">Madhav Somanath</text>
-  <text class="tag" x="64" y="232">Building products for leaders who need real insights.</text>
-  <rect class="accent" x="64" y="262" width="48" height="4" rx="2"/>
+  <text class="meta a1" x="64" y="112">AI PRODUCT MANAGER  ·  BUILDER</text>
+  <text class="name a2" x="60" y="200">Madhav Somanath</text>
+  <text class="tag a3" x="64" y="258">Product manager who builds.</text>
+  <text class="sub a4" x="64" y="298">AI features that ship and hold up.</text>
 </svg>
